@@ -1,0 +1,66 @@
+.projects2__main--container {
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    overflow: hidden;
+}
+
+/* Coolify part  */
+
+.coolifyPrt {
+    top: 75%;
+    left: 7%;
+    position: relative;
+}
+.coolifyPro {
+    bottom: 96vh;
+    left: 8%;
+    display: flex;
+    position: relative;
+}
+.coolifyPrt img {
+    top: -30%;
+    width: 30%;
+    height: 37%;
+    position: relative;
+}
+
+.coolifyPrt h1 {
+    font-size: 8em;
+    position: relative;
+    font-weight: 900;
+    left: 25%;
+    margin-bottom: 0.3em;
+    transform: scale(.5, 2.5);
+    position: relative;
+    letter-spacing: 0.3em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.coolifyPro h6 {
+    top: 13%;
+    left: 50%;
+}
+
+.coolifyInfo {
+    top: -70.3%;
+    width: 10%;
+    left: 55vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 20px;
+
+    position: relative;
+}
+
+.coolifyInfo span{
+    font-size: 8em;
+    color: #D1453F;
+    font-weight: 600;
+    margin-bottom: 30px;
+}

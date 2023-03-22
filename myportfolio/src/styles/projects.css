@@ -1,0 +1,128 @@
+.projects__main--container {
+    margin-top: 10%;
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #ead2b8;
+    overflow: hidden;
+}
+
+h6 {
+    width: 47.3%;
+    padding: 10px;
+    display: flex;
+    font-size: 24px;
+    border-radius: 6px;
+    background: #D1453F;
+    flex-direction: column;
+    font-family: sans-serif;
+    position: relative;
+}
+
+h6 span {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/* Minga part  */
+.mingaPrt {
+    top: -25vh;
+    left: 15%;
+    position: relative;
+}
+.mingaPro {
+    left: 10%;
+    display: flex;
+    position: relative;
+}
+.mingaPrt img {
+    top: -27%;
+    width: 30%;
+    height: 32%;
+    right: -50%;
+    position: relative;
+}
+
+.mingaPrt h1 {
+    font-size: 8em;
+    position: relative;
+    font-weight: 900;
+    left: 35%;
+    color: #000;
+    transform: scale(.5, 2.5);
+    position: relative;
+    letter-spacing: 0.3em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.mingaPro h6 {
+    left: 60%;
+    top: 20%;
+}
+
+.mingaInfo {
+    top: 28%;
+    width: 10%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+
+    text-align: right;
+    font-size: 22px;
+
+    position: relative;
+}
+
+.mingaInfo span{
+    font-size: 8em;
+    color: #D1453F;
+    font-weight: 600;
+}
+
+
+
+
+
+/* .projectContent {
+    width: calc(100vw - 50px);
+}
+
+.myWorks {
+    top: 25%;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+    font-family: sans-serrif;
+}
+
+.minga {
+    bottom: 15%;
+}
+.mingaImg {
+    width: 35%;
+}
+
+
+.cooliFy {
+    bottom: -30%;
+    left: 50vw;
+    position: relative;
+    border: 1px solid #
+}
+.coolifyImg {
+    width: 55%;
+}
+.coolifyImg {
+    width: 50%;
+}
+.cooliFy {
+    left: 3vw;
+    bottom: 15%;
+    position: relative;
+} */

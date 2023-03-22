@@ -1,0 +1,28 @@
+.loader-container {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    display: grid;
+    place-items: center;
+    background: #1f1f1f;
+    font-family: 'Sora', sans-serif;
+    cursor: none;
+    display: flex;
+    color: #fff;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.counter-container {
+    height: 52vh;
+    min-height: 52vh;
+    overflow: hidden;
+}
+
+.counter-container h3 {
+    font-size: 30vw;
+    line-height: 30vw;
+    font-weight: 300;
+    font-family: sans-serif;
+}

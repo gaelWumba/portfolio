@@ -1,0 +1,91 @@
+.footer--container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.travailX {
+    top: 30vh;
+    width: 100vw;
+    text-align: center;
+    position: relative;
+}
+.travailX p {
+    width: 100vw;
+    font-size: 10em;
+    font-weight: bold;
+    color: #ead2b8;
+    background: #000;
+    font-family: sans-serif;
+    transform: scale(1.3);
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+.workTop {
+    left: 10px;
+}
+.workBottom {
+    left: 12vw;
+}
+
+.letsWork {
+    width: 95vw;
+    height: 30vh;
+    left: 2%;
+    color: #000;
+    padding: 10px;
+    background: #ead2b8;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    transition: background-size .5s, color .5s;
+}
+.letsWork:hover {
+  color: #D1453F;
+}
+
+.letsWork h1 {
+    font-size: 60px;
+    text-align: left;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.letsWork .lets {
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 19vh;
+}
+
+.myHead {
+    background: url("../assets/head.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 400px;
+    transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.letsWork h4 {
+    font-size: 70px;
+    text-align: right;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 .dispo {
+    font-size: 25px;
+    margin-bottom: 18vh;
+}
+
+.myAvatar, .myImg {
+    top: 1.4vh;
+    height: 100%;
+    position: relative;
+
+}
