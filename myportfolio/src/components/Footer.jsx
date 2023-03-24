@@ -14,8 +14,7 @@ export default function Footer() {
         </p>
         <div className="letsWork to-bottom">
           <h1>
-            <span className="lets">Let's work</span>
-            <span className="boulot">Travaillons</span>
+            <span className="boulot">Let's work</span>
           </h1>
           {/* <div className="myHead" /> */}
           <div className="myImg">
@@ -24,7 +23,6 @@ export default function Footer() {
           </div>
 
           <h4 className="posteR">
-            <span className="dispo">disponible pour un contrat en</span>
             <span className="altern">Alternance</span>
           </h4>
           

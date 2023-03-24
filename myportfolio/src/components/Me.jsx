@@ -60,7 +60,7 @@ function Me() {
     return (
         <section data-scroll-section id='about' className='me__main--container' ref={ref}>
 
-            <h2 className='gael'>Gael</h2>
+            <h2 className='gael'>Gaël</h2>
             <h3 className='myMail'>
                 <a onClick={() => window.location = 'mailto:g.wumbabuatu@gmail.com'}>g.wumbabuatu@gmail.com</a>
             </h3>
@@ -68,7 +68,7 @@ function Me() {
             <h2 className='buatu'>BUATU</h2>
             
             <div className='myLinks'>
-                <a target={"_blank"} href="https://www.linkedin.com/in/gael-wumba-buatu">
+                <a target={"_blank"} href="https://www.linkedin.com/in/gael-wumba-buatu" className='linkedin'>
                     linkedin
                 </a>
                 <a target="_blank" href="https://github.com/gaelWumba">

@@ -1,66 +1,284 @@
-.projects2__main--container {
-    width: 100vw;
-    height: 50vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    background: #000;
-    overflow: hidden;
+
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+    .projects2__main--container {
+        width: 100vw;
+        height: 35vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background: #000;
+        overflow: hidden;
+    }
+    
+    a {
+        left: -25%;
+        position: relative;
+    }
+    /* Coolify part  */
+    
+    .coolifyPrt {
+        top: 65%;
+        left: 15%;
+        position: relative;
+    }
+    .coolifyPro {
+        bottom: 50vh;
+        left: -8%;
+        isplay: flex;
+        flex-direction:column;
+        position: relative;
+    }
+    .coolifyPrt img {
+        top: -14%;
+        width: 65%;
+        height: 26%;
+        left: -8%;
+        position: relative;
+    }
+    
+    .coolifyPrt h1 {
+        font-size: 2.1em;
+        position: relative;
+        font-weight: 900;
+
+        position: relative;
+        letter-spacing: 0.2em;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+    
+    .coolifyPro h6 {
+        left: 25.5%;
+        top: -5%;
+    }
+    
+    .coolifyInfo {
+        top: -69%;
+        width: 10%;
+        left: 62vw;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 15px;
+    
+        position: relative;
+    }
+    
+    .coolifyInfo span{
+        font-size: 4em;
+        color: #D1453F;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
 }
 
-/* Coolify part  */
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+    .projects2__main--container {
+        width: 100vw;
+        height: 35vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background: #000;
+        overflow: hidden;
+    }
+    
+    a {
+        left: -25%;
+        position: relative;
+    }
+    /* Coolify part  */
+    
+    .coolifyPrt {
+        top: 65%;
+        left: 15%;
+        position: relative;
+    }
+    .coolifyPro {
+        bottom: 57vh;
+        left: -5%;
+        isplay: flex;
+        flex-direction:column;
+        position: relative;
+    }
+    .coolifyPrt img {
+        top: -14%;
+        width: 60%;
+        height: 30%;
+        left: -5%;
+        position: relative;
+    }
+    
+    .coolifyPrt h1 {
+        font-size: 3em;
+        position: relative;
+        font-weight: 900;
 
-.coolifyPrt {
-    top: 75%;
-    left: 7%;
-    position: relative;
-}
-.coolifyPro {
-    bottom: 96vh;
-    left: 8%;
-    display: flex;
-    position: relative;
-}
-.coolifyPrt img {
-    top: -30%;
-    width: 30%;
-    height: 37%;
-    position: relative;
-}
-
-.coolifyPrt h1 {
-    font-size: 8em;
-    position: relative;
-    font-weight: 900;
-    left: 25%;
-    margin-bottom: 0.3em;
-    transform: scale(.5, 2.5);
-    position: relative;
-    letter-spacing: 0.3em;
-    font-family: sans-serif;
-    text-transform: uppercase;
-}
-
-.coolifyPro h6 {
-    top: 13%;
-    left: 50%;
+        position: relative;
+        letter-spacing: 0.2em;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+    
+    .coolifyPro h6 {
+        left: 25.5%;
+        top: -5%;
+    }
+    
+    .coolifyInfo {
+        top: -72%;
+        width: 10%;
+        left: 60vw;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 20px;
+    
+        position: relative;
+    }
+    
+    .coolifyInfo span{
+        font-size: 4em;
+        color: #D1453F;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
 }
 
-.coolifyInfo {
-    top: -70.3%;
-    width: 10%;
-    left: 55vw;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    font-size: 20px;
-
-    position: relative;
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+    .projects2__main--container {
+        width: 100vw;
+        height: 35vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background: #000;
+        overflow: hidden;
+    }
+    
+    /* Coolify part  */
+    
+    .coolifyPrt {
+        top: 65%;
+        left: 7%;
+        position: relative;
+    }
+    .coolifyPro {
+        bottom: 63.5vh;
+        left: 4.5%;
+        display: flex;
+        position: relative;
+    }
+    .coolifyPrt img {
+        top: -27%;
+        width: 39%;
+        height: 35%;
+        position: relative;
+    }
+    
+    .coolifyPrt h1 {
+        font-size: 5.5em;
+        position: relative;
+        font-weight: 900;
+        left: 25%;
+        margin-bottom: 0.2em;
+        transform: scale(.5, 1.7);
+        position: relative;
+        letter-spacing: 0.2em;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+    
+    .coolifyPro h6 {
+        top: 8%;
+        left: 50%;
+    }
+    
+    .coolifyInfo {
+        top: -65%;
+        width: 10%;
+        left: 78vw;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 19px;
+    
+        position: relative;
+    }
+    
+    .coolifyInfo span{
+        font-size: 4em;
+        color: #D1453F;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
 }
 
-.coolifyInfo span{
-    font-size: 8em;
-    color: #D1453F;
-    font-weight: 600;
-    margin-bottom: 30px;
+@media only screen and (min-width: 992px){ 
+    .projects2__main--container {
+        width: 100vw;
+        height: 60vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background: #000;
+        overflow: hidden;
+    }
+    
+    /* Coolify part  */
+    
+    .coolifyPrt {
+        top: 75%;
+        left: 7%;
+        position: relative;
+    }
+    .coolifyPro {
+        top: -118vh;
+        left: 3%;
+        display: flex;
+        position: relative;
+    }
+    .coolifyPrt img {
+        top: -32%;
+        width: 30%;
+        height: 39%;
+        position: relative;
+    }
+    
+    .coolifyPrt h1 {
+        font-size: 8em;
+        position: relative;
+        font-weight: 900;
+        left: 25%;
+        margin-bottom: 0.3em;
+        transform: scale(.5, 2.3);
+        position: relative;
+        letter-spacing: 0.3em;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+    
+    .coolifyPro h6 {
+        top: 13%;
+        left: 50%;
+    }
+    
+    .coolifyInfo {
+        top: -74.5%;
+        width: 10%;
+        left: 63vw;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 20px;
+    
+        position: relative;
+    }
+    
+    .coolifyInfo span{
+        font-size: 8em;
+        color: #D1453F;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
 }

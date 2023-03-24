@@ -14,7 +14,7 @@ export default function Workspace() {
                 <div className='workSpace-clone'>
                     WORK SPACE
                 </div>
-            </div>
+          </div>
     </section>
   )
 }

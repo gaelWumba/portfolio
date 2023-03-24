@@ -1,19 +1,18 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect } from 'react'
 import {gsap} from 'gsap'
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Disc } from 'react-feather';
 
 function Home() {
-  gsap.registerPlugin(ScrollTrigger);
-  const ref = useRef(null);
-  
   useEffect(() => {
-    const element = ref.current;
-    
-  }, []);
+    const tl  = gsap.timeline()
+      tl.to(".moderne, .creative, .design", {
+        opacity: 2,
+        delay: 8,
+        duration: 8,
+      })
+  })
 
   return (
-    <section data-scroll-section id='home' className='home__main--container' ref={ref}>
+    <section data-scroll-section id='home' className='home__main--container'>
       <div className='home__content'>
         <h3  
           data-scroll 
