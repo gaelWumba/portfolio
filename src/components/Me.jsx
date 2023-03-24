@@ -1,64 +1,10 @@
 import React, { useEffect, useRef } from 'react'
-import {gsap} from 'gsap'
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { SplitText } from "gsap-trial/SplitText";
-import { useLocomotiveScroll } from 'react-locomotive-scroll';
-
 
 function Me() {
-    gsap.registerPlugin(ScrollTrigger, SplitText);
-    const { scroll } = useLocomotiveScroll();
-    const ref = useRef(null);
-    const about = useRef(null);
-
-    useEffect(() => {
-        if(scroll) {
-            const element = scroll?.el;
-            scroll.on('scroll', ScrollTrigger.update);
-      
-            ScrollTrigger.scrollerProxy(element, {
-              scrollTop(value){
-                return arguments.length 
-                  ? scroll.scrollTo(value, { duration: 0, disableLerp: true }) 
-                  : scroll.scroll.instance.scroll.y;
-              },
-      
-              getBoundingClientRect() {
-                return {
-                  top: 0, 
-                  left: 0, 
-                  width: window.innerWidth, 
-                  height: window.innerHeight
-                };
-              },
-      
-              pinType: element.style.transform 
-                ? 'transform' 
-                : 'fixed'
-            })
-        }
-      
-        ScrollTrigger.addEventListener('refresh', () => scroll?.update());
-        ScrollTrigger.refresh();
-
-        let jeSuisDev = new SplitText('.aboutMe-jeDev', {type: 'chars'});
-        let devChars = jeSuisDev.chars;
-        gsap.to(devChars, {
-            y: -100,
-            duration: 1,
-            scrollTrigger: {
-                scroller: scroll?.el,
-                trigger: about.current,
-                start: 'top 80%',
-                toggleActions: 'restart none none reverse',
-            }
-        })
-
-    }, [scroll]);
     
 
     return (
-        <section data-scroll-section id='about' className='me__main--container' ref={ref}>
+        <section data-scroll-section id='about' className='me__main--container'>
 
             <h2 className='gael'>Gaël</h2>
             <h3 className='myMail'>

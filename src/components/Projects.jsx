@@ -1,9 +1,6 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 export default function Projects() {
-    useEffect(() => {
-        
-    }, []);
 
     return (
         <section data-scroll-section id='projects' className='projects__main--container'>

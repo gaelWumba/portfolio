@@ -1,9 +1,6 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 export default function Projects3() {
-    useEffect(() => {
-        
-    }, []);
 
     return (
         <section data-scroll-section className='projects3__main--container'>
