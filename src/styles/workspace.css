@@ -28,14 +28,9 @@
 @media only screen and (min-width: 480px) and (max-width: 767px){ 
     .workspace--container {
         width: 100vw;
-        height: 25vh;
-        position: relative;
-        display: flex;
-        flex-direction: column;
+        height: 10vh;
     }
     .workSpace, .workSpace-clone {
-        top: 10vh;
-        left: 1%;
         position: relative;
         font-family: sans-serif;    
         font-size: 4rem;
@@ -43,41 +38,40 @@
         color: #ead2b8;
     }
     .workSpace-clone {
-        top: 11vw;
-        line-height: 0.3;
+        top: -12.2vw;
+        line-height: 0.4;
         color: #D1453F;
         overflow: hidden;
-    }
-    .space {
-        margin-bottom: 20vh;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){ 
+    .workspace--container {
+        width: 100vw;
+        height: 15vh;
+    }
     .workSpace, .workSpace-clone {
-        top: 10vh;
-        left: 3vw;
         position: relative;
         font-family: sans-serif;    
-        font-size: 6rem;
+        font-size: 5.5rem;
         font-weight: 900;
         color: #ead2b8;
     }
     .workSpace-clone {
-        top: 1.2vw;
-        line-height: 0.3;
+        top: -10.3vw;
+        line-height: 0.4;
         color: #D1453F;
         overflow: hidden;
-    }
-    .space {
-        margin-bottom: 20vh;
     }
 }
 
 @media only screen and (min-width: 992px){ 
+    .workspace--container {
+        width: 100vw;
+        height: 30vh;
+    }
     .workSpace, .workSpace-clone {
-        top: 10vh;
-        left: -20vw;
+        left: -15vw;
         position: relative;
         font-family: sans-serif;    
         font-size: 10rem;
@@ -85,12 +79,10 @@
         color: #ead2b8;
     }
     .workSpace-clone {
-        top: -3.9vw;
-        line-height: 0.3;
+        top: -9.42vw;
+        line-height: 0.4;
         color: #D1453F;
         overflow: hidden;
     }
-    .space {
-        margin-bottom: 20vh;
-    }
+
 }

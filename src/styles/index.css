@@ -3,17 +3,9 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  &:after,
-  &:before {
-    box-sizing: border-box;
-  }
-  overflow: hidden;
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   background: #1f1f1f;
   cursor: none;

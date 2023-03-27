@@ -3,17 +3,16 @@ import {gsap} from 'gsap'
 
 function Home() {
   useEffect(() => {
-    const tl  = gsap.timeline()
-      tl.to(".moderne, .creative, .design", {
-        opacity: 2,
-        delay: 8,
-        duration: 8,
-      })
+    // const tl  = gsap.timeline()
+    //   tl.to(".moderne, .creative, .design", {
+    //     opacity: 2,
+    //     delay: 8,
+    //     duration: 8,
+    //   })
   })
 
   return (
     <section data-scroll-section id='home' className='home__main--container'>
-      <div className='home__content'>
         <h3  
           data-scroll 
           data-scroll-speed="2"
@@ -28,9 +27,9 @@ function Home() {
           data-scroll 
           data-scroll-speed="2" 
           data-scroll-direction="horizontal" 
-          className='creative'
+          className='creative crea'
         >
-          <span className='crea'>Creative</span>
+          Creative
         </h1>
         <h2 
           data-scroll 
@@ -39,9 +38,7 @@ function Home() {
           className='design'
         >
           developer
-        </h2>
-      </div>
-      
+        </h2>      
     </section>
   )
 }

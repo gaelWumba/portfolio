@@ -2,120 +2,103 @@
     .me__main--container {
         margin-top: 5%;
         width: 100vw;
-        height: 60vh;
-        position: relative;
+        height: 55vh;
         background: #000;
-    
     }
-    .gael {
-        top: 11vh;
-        left: 17.5vh;
-        font-size: 2em;
-        text-align: center;
-        font-family: sans-serif;
+
+    .meContent {
+        padding: 12vh 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flexdirection: row;
+    }
+
+    .wumbaEmail {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .myLinks {
+        left: -10%;
         position: relative;
+        font-size: 0.7em;
+        font-weight: bold;
+        color: #D1453F;
         text-transform: uppercase;
-        padding: 2%;
-        width: 40%;
-        color: #EAD2B8;
-        background: #D1453F;
         transition: all 0.5s ease-in-out;
+    }
+    .myLinks a {
+        margin: 0 5px;
     }
     
     .myMail {
-        top: 12vh;
-        left: 8vw;
-        width: 20%;
+        top: 2.5vh;
+        left: -4%;
         color: #D1453F;
         cursor: pointer;
-        font-size: 0.5em;
+        font-size: 0.51em;
         position: relative;
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
     }
     
     .wumba {
-        top: 4.5vh;
-        left: -19vw;
+        top: 4.9vh;
+        left: 19vw;
+        width: fit-content;
         line-height: 0.7;
         overflow: hidden;
-        font-size: 4.5em;
-        font-family: sans-serif;
+        font-size: 4.1em;
         position: relative;
+        font-family: sans-serif;
         transform: scale(.5, 1);
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
     }
+    .moi {
+        top: 10vh;
+        left: 10vw;
+        width: 100%;
+        color: #ead2b8;
+        font-size: .85em;
+        position: relative;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .gaelBuatu {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
     
+    .gael {
+        font-size: 3em;
+        text-align: center;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        padding: 2%;
+        width: fit-content;
+        color: #000;
+        background: #ead2b8;
+        transition: all 0.5s ease-in-out;
+    }
+
     .buatu {
-        top: 4.6vh;
-        left: 23vw;
-        font-size: 3.8em;
+        top: 1px;
+        left: -24.5vw;
+        width: fit-content;
+        font-size: 4.1em;
         line-height: 0.7;
         font-family: sans-serif;
-        position: relative;
         overflow: hidden;
+        position: relative;
         letter-spacing: 1rem;
         transform: scale(.5, 1);
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
-    }
-    
-    .myLinks {
-        top: 3vh;
-        left: 8vw;
-        width: 35%;
-        font-size: 0.6em;
-        display: flex;
-        position: relative;
-        font-weight: bold;
-        color: #D1453F;
-        flex-direction: row;
-        justify-content: space-between;
-        text-transform: uppercase;
-        justify-content: space-between;
-        transition: all 0.5s ease-in-out;
-    }
-    .linkedin {
-        margin-bottom: 20%;
-    }
-    
-    
-    .moi {
-        top: 5vh;
-        left: 6vw;
-        width: 95%;
-        color: #fff;
-        font-size: 1.5em;
-        position: relative;
-        transition: all 0.5s ease-in-out;
-    }
-    
-    .post {
-        top: -80vh;
-        right: 80vw;
-        width: fit-content;
-        color: #D1453F;
-        text-align: center;
-        background: #000;
-        text-transform: uppercase;
-        font-size: 5em;
-        position: relative;
-        transition: all 0.5s ease-in-out;
-    }
-    
-    .alten {
-        top: -50vh;
-        right: -90vw;
-        width: fit-content;
-        color: #D1453F;
-        text-align: center;
-        background: #000;
-        text-transform: uppercase;
-        font-size: 5em;
-        position: relative;
-        transition: all 0.5s ease-in-out;
-    
     }
 }
 
@@ -123,120 +106,103 @@
     .me__main--container {
         margin-top: 5%;
         width: 100vw;
-        height: 60vh;
-        position: relative;
+        height: 55vh;
         background: #000;
-    
     }
-    .gael {
-        top: 12vh;
-        left: 22vh;
-        font-size: 3em;
-        text-align: center;
-        font-family: sans-serif;
+
+    .meContent {
+        padding: 12vh 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flexdirection: row;
+    }
+
+    .wumbaEmail {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .myLinks {
+        left: -7vw;
         position: relative;
+        font-size: 1em;
+        font-weight: bold;
+        color: #D1453F;
         text-transform: uppercase;
-        padding: 2%;
-        width: 40%;
-        color: #EAD2B8;
-        background: #D1453F;
         transition: all 0.5s ease-in-out;
+    }
+    .myLinks a {
+        margin: 0 5px;
     }
     
     .myMail {
-        top: 13vh;
-        left: 11vw;
-        width: 20%;
+        top: 4vh;
+        left: -2vw;
         color: #D1453F;
         cursor: pointer;
-        font-size: 0.76em;
+        font-size: 0.74em;
         position: relative;
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
     }
     
     .wumba {
-        top: 4vh;
-        left: -19vw;
+        top: 5.8vh;
+        right: -18vw;
+        width: fit-content;
         line-height: 0.7;
         overflow: hidden;
-        font-size: 6.5em;
-        font-family: sans-serif;
+        font-size: 5.8em;
         position: relative;
+        font-family: sans-serif;
         transform: scale(.5, 1);
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
     }
+    .moi {
+        top: 10vh;
+        left: 10vw;
+        width: 100%;
+        color: #ead2b8;
+        font-size: 1.05em;
+        position: relative;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .gaelBuatu {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
     
+    .gael {
+        font-size: 4em;
+        text-align: center;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        padding: 2%;
+        width: fit-content;
+        color: #000;
+        background: #ead2b8;
+        transition: all 0.5s ease-in-out;
+    }
+
     .buatu {
-        top: 4.2vh;
-        left: 22vw;
-        font-size: 6.5em;
+        top: 1px;
+        left: -21.6vw;
+        width: fit-content;
+        font-size: 5.92em;
         line-height: 0.7;
         font-family: sans-serif;
-        position: relative;
         overflow: hidden;
+        position: relative;
         letter-spacing: 1rem;
         transform: scale(.5, 1);
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
-    }
-    
-    .myLinks {
-        top: 2vh;
-        left: 15vw;
-        width: 35%;
-        font-size: 1em;
-        display: flex;
-        position: relative;
-        font-weight: bold;
-        color: #D1453F;
-        flex-direction: row;
-        justify-content: space-between;
-        text-transform: uppercase;
-        justify-content: space-between;
-        transition: all 0.5s ease-in-out;
-    }
-    .linkedin {
-        margin-bottom: 20%;
-    }
-    
-    
-    .moi {
-        top: 5vh;
-        left: 4vw;
-        width: 95%;
-        color: #fff;
-        font-size: 2em;
-        position: relative;
-        transition: all 0.5s ease-in-out;
-    }
-    
-    .post {
-        top: -80vh;
-        right: 80vw;
-        width: fit-content;
-        color: #D1453F;
-        text-align: center;
-        background: #000;
-        text-transform: uppercase;
-        font-size: 5em;
-        position: relative;
-        transition: all 0.5s ease-in-out;
-    }
-    
-    .alten {
-        top: -50vh;
-        right: -90vw;
-        width: fit-content;
-        color: #D1453F;
-        text-align: center;
-        background: #000;
-        text-transform: uppercase;
-        font-size: 5em;
-        position: relative;
-        transition: all 0.5s ease-in-out;
-    
     }
  }
 
@@ -244,239 +210,208 @@
     .me__main--container {
         margin-top: 5%;
         width: 100vw;
-        height: 90vh;
-        position: relative;
+        height: 85vh;
         background: #000;
-    
     }
-    .gael {
-        top: 12vh;
-        left: 43vh;
-        font-size: 5em;
-        text-align: center;
-        font-family: sans-serif;
+
+    .meContent {
+        padding: 15vh 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flexdirection: row;
+    }
+
+    .wumbaEmail {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+
+    }
+
+    .myLinks {
+        left: -16.5vw;
         position: relative;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #D1453F;
         text-transform: uppercase;
-        padding: 2%;
-        width: 40%;
-        color: #EAD2B8;
-        background: #D1453F;
         transition: all 0.5s ease-in-out;
+    }
+    .myLinks a {
+        margin: 0 5px;
     }
     
     .myMail {
-        top: 16vh;
-        left: 6.5vw;
-        width: 20%;
+        top: 4vh;
+        left: -2.5vw;
         color: #D1453F;
         cursor: pointer;
-        font-size: 1.2em;
+        font-size: 1.35em;
         position: relative;
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
     }
     
     .wumba {
-        top: -3.9vh;
-        left: -20vw;
+        top: 10.21vh;
+        right: -22.5vw;
+        width: fit-content;
         line-height: 0.7;
         overflow: hidden;
-        font-size: 11em;
-        font-family: sans-serif;
+        font-size: 11.1em;
         position: relative;
+        font-family: sans-serif;
         transform: scale(.5, 1);
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
     }
+    .moi {
+        top: 20vh;
+        left: 5vw;
+        width: 100%;
+        color: #ead2b8;
+        font-size: 1.7em;
+        position: relative;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .gaelBuatu {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
     
+    .gael {
+        font-size: 7em;
+        text-align: center;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        padding: 2%;
+        width: fit-content;
+        color: #000;
+        background: #ead2b8;
+        transition: all 0.5s ease-in-out;
+    }
+
     .buatu {
-        top: -3.3vh;
-        left: 25vw;
-        font-size: 10.5em;
+        top: 1px;
+        left: -23.4vw;
+        width: fit-content;
+        font-size: 11.2em;
         line-height: 0.7;
         font-family: sans-serif;
-        position: relative;
         overflow: hidden;
+        position: relative;
         letter-spacing: 1rem;
         transform: scale(.5, 1);
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
     }
-    
-    .myLinks {
-        top: -7vh;
-        left: 6vw;
-        width: 35%;
-        font-size: 1.5em;
-        display: flex;
-        position: relative;
-        font-weight: bold;
-        color: #D1453F;
-        flex-direction: row;
-        justify-content: space-between;
-        text-transform: uppercase;
-        justify-content: space-between;
-        transition: all 0.5s ease-in-out;
-    }
-    .linkedin {
-        margin-bottom: 20%;
-    }
-    
-    
-    .moi {
-        top: -5vh;
-        left: 6vw;
-        width: 80%;
-        color: #fff;
-        font-size: 2.5em;
-        position: relative;
-        transition: all 0.5s ease-in-out;
-    }
-    
-    .post {
-        top: -80vh;
-        right: 80vw;
-        width: fit-content;
-        color: #D1453F;
-        text-align: center;
-        background: #000;
-        text-transform: uppercase;
-        font-size: 5em;
-        position: relative;
-        transition: all 0.5s ease-in-out;
-    }
-    
-    .alten {
-        top: -50vh;
-        right: -90vw;
-        width: fit-content;
-        color: #D1453F;
-        text-align: center;
-        background: #000;
-        text-transform: uppercase;
-        font-size: 5em;
-        position: relative;
-        transition: all 0.5s ease-in-out;
-    
-    }
- }
+ } 
 
 @media only screen and (min-width: 992px){ 
     .me__main--container {
         margin-top: 5%;
         width: 100vw;
         height: 100vh;
-        position: relative;
         background: #000;
-    
     }
-    .gael {
-        top: 21vh;
-        left: 98vh;
-        font-size: 12em;
-        text-align: center;
-        font-family: sans-serif;
+
+    .meContent {
+        padding: 15vh 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flexdirection: row;
+    }
+
+    .wumbaEmail {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+
+    }
+
+    .myLinks {
+        left: -24.9vw;
         position: relative;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #D1453F;
         text-transform: uppercase;
-        padding: 2%;
-        width: 40%;
-        color: #EAD2B8;
-        background: #D1453F;
         transition: all 0.5s ease-in-out;
+    }
+    .myLinks a {
+        margin: 0 5px;
     }
     
     .myMail {
-        top: -13vh;
-        left: 12.5vw;
-        width: 20%;
+        left: -1.6vw;
         color: #D1453F;
         cursor: pointer;
-        font-size: 2.15em;
+        font-size: 2.2em;
         position: relative;
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
     }
     
     .wumba {
-        top: -10vh;
-        left: -12.5vw;
+        right: -18.5vw;
+        width: fit-content;
         line-height: 0.7;
         overflow: hidden;
-        font-size: 18em;
-        font-family: sans-serif;
+        font-size: 18.1em;
         position: relative;
+        font-family: sans-serif;
         transform: scale(.5, 1);
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
     }
+    .moi {
+        top: 2.5vh;
+        left: -2.4vw;
+        width: 70%;
+        color: #ead2b8;
+        font-size: 2.4em;
+        position: relative;
+        transition: all 0.5s ease-in-out;
+    }
+
+
+    .gaelBuatu {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
     
+    .gael {
+        font-size: 12.7em;
+        text-align: center;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        padding: 2%;
+        width: fit-content;
+        color: #000;
+        background: #ead2b8;
+        transition: all 0.5s ease-in-out;
+    }
+
     .buatu {
-        top: -9vh;
-        left: 24vw;
-        font-size: 18em;
+        top: 1px;
+        left: -21.3vw;
+        width: fit-content;
+        font-size: 21.5em;
         line-height: 0.7;
         font-family: sans-serif;
-        position: relative;
         overflow: hidden;
+        position: relative;
         letter-spacing: 1rem;
         transform: scale(.5, 1);
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
     }
     
-    .myLinks {
-        top: -29vh;
-        left: 83vw;
-        width: 13%;
-        display: flex;
-        font-size: 1.2em;
-        position: relative;
-        font-weight: bold;
-        color: #D1453F;
-        flex-direction: column;
-        text-transform: uppercase;
-        justify-content: space-between;
-        transition: all 0.5s ease-in-out;
-    }
-    .linkedin {
-        margin-bottom: 20%;
-    }
-    
-    
-    .moi {
-        top: -40vh;
-        left: 17vw;
-        width: 25%;
-        color: #fff;
-        font-size: 1.5em;
-        position: relative;
-        transition: all 0.5s ease-in-out;
-    }
-    
-    .post {
-        top: -80vh;
-        right: 80vw;
-        width: fit-content;
-        color: #D1453F;
-        text-align: center;
-        background: #000;
-        text-transform: uppercase;
-        font-size: 5em;
-        position: relative;
-        transition: all 0.5s ease-in-out;
-    }
-    
-    .alten {
-        top: -50vh;
-        right: -90vw;
-        width: fit-content;
-        color: #D1453F;
-        text-align: center;
-        background: #000;
-        text-transform: uppercase;
-        font-size: 5em;
-        position: relative;
-        transition: all 0.5s ease-in-out;
-    
-    }
 }

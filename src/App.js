@@ -26,7 +26,7 @@ function App() {
       }
       containerRef={containerRef}
     >
-      <Loading />
+      {/* <Loading /> */}
       <CustomCursor />
       <Header />
       <main className="main" data-scroll-container ref={containerRef}>
