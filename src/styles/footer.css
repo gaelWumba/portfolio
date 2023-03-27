@@ -2,7 +2,7 @@
 @media only screen and (min-width: 320px) and (max-width: 479px){ 
     .footer--container {
         width: 100vw;
-        height: 20vh;
+        height: 50vh;
     }
     
     .travailX {
@@ -13,82 +13,165 @@
     }
     .travailX p {
         width: 100vw;
-        font-size: 1.8em;
+        font-size: 1.7em;
         font-weight: bold;
         color: #ead2b8;
         text-align: center;
-        background: #D1453F;
+        background: #000;
         font-family: sans-serif;
         transform: scale(1.3);
         text-align: center;
         text-transform: uppercase;        
     }
-
+    .workTop {
+        left: 10px;
+    }
     .workBottom {
-        left: 2vw;
-        position: relative;
+        left: 12vw;
     }
     
     .letsWork {
         width: 100vw;
-        height: 20vh;
+        height: 30vh;
         left: 2%;
-        color: #ead2b8;
+        color: #000;
         padding: 20px 5px;
-        background: #000;
+        background: #ead2b8;
         border-radius: 5px;
         display: flex;
         justify-content: space-between;
         transition: background-size .5s, color .5s;
     }
-    .letsWork:hover {
-      color: #D1453F;
-    }
-    
-    .letsWork h1 {
-        font-size: 15px;
-        text-align: left;
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-        margin-top: 13.6vh;
-
-    }
-    
-    .letsWork .lets {
-        font-size: 15px;
-        text-align: left;
-        margin-bottom: 13vh;
-        display: none;
-    }
-    
-    
-    .letsWork h4 {
-        font-size: 15px;
-        text-align: right;
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    h4 .dispo {
-        font-size: 10px;
-        margin-bottom: 13.6vh;
-        display: none;
-    }
     
     .myAvatar, .myImg {
-        top: 4vh;
-        height: 80%;
+        top: 5.5vh;
+        height: 85%;
         position: relative;
     
+    }
+
+    .dialog {
+        display: none;
+
+        width: 20%;
+        height: 12%;
+        margin-left: 5%;
+        margin-top: 12%;
+        animation: float 5s ease-in-out infinite;
+        mix-blend-mode: multiply;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 8px;
+        color: #000;
+        background-color: #ffa434;
+        padding: 10px;
+        border-radius: 11px;
+        position: relative;
+        box-shadow: 20px 20px #1f1f1f;
+        font-family: "Baloo 2", cursive;
+      }
+      .dialog:after {
+        transform: translatey(0px);
+        animation: float2 5s ease-in-out infinite;
+        content: ".";
+        font-weight: bold;
+        -webkit-text-fill-color: #ffa434;
+        text-shadow: 22px 22px #1f1f1f;
+        text-align: right;
+        font-size: 55px;
+        width: 55px;
+        height: 11px;
+        line-height: 30px;
+        border-radius: 11px;
+        background-color: #ffa434;
+        position: absolute;
+        display: block;
+        bottom: -30px;
+        right: -10px;
+        box-shadow: 22px 22px #1f1f1f;
+        z-index: -2;
+      }
+
+      .dialog2 {
+        display: none;
+
+        width: 20%;
+        height: 20%;
+        margin-right: 5%;
+        margin-top: 12%;
+        animation: float 5s ease-in-out infinite;
+        mix-blend-mode: multiply;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 8px;
+        color: #fff;
+        background-color: #ff4133;
+        padding: 10px;
+        border-radius: 11px;
+        position: relative;
+        box-shadow: -20px 20px #1f1f1f;
+        font-family: "Baloo 2", cursive;
+      }
+      .dialog2:after {
+        transform: translatey(0px);
+        animation: float2 5s ease-in-out infinite;
+        content: ".";
+        font-weight: bold;
+        -webkit-text-fill-color: #ff4133;
+        text-shadow: -22px 22px #1f1f1f;
+        text-align: left;
+        font-size: 55px;
+        width: 55px;
+        height: 11px;
+        line-height: 30px;
+        border-radius: 11px;
+        background-color: #ff4133;
+        position: absolute;
+        display: block;
+        bottom: -30px;
+        left: -10px;
+        box-shadow: -22px 22px #1f1f1f;
+        z-index: -2;
+      }
+      
+      @keyframes float {
+        0% {
+          transform: translatey(0px);
+        }
+        50% {
+          transform: translatey(-20px);
+        }
+        100% {
+          transform: translatey(0px);
+        }
+      }
+      
+      @keyframes float2 {
+        0% {
+          line-height: 30px;
+          transform: translatey(0px);
+        }
+        55% {
+          transform: translatey(-20px);
+        }
+        60% {
+          line-height: 10px;
+        }
+        100% {
+          line-height: 30px;
+          transform: translatey(0px);
+        }
     }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px){ 
     .footer--container {
         width: 100vw;
-        height: 20vh;
+        height: 50vh;
     }
     
     .travailX {
@@ -103,78 +186,157 @@
         font-weight: bold;
         color: #ead2b8;
         text-align: center;
-        background: #D1453F;
+        background: #000;
         font-family: sans-serif;
         transform: scale(1.3);
         text-align: center;
         text-transform: uppercase;        
     }
-
+    .workTop {
+        left: 10px;
+    }
     .workBottom {
-        left: 2vw;
-        position: relative;
+        left: 12vw;
     }
     
     .letsWork {
         width: 100vw;
-        height: 20vh;
+        height: 30vh;
         left: 2%;
-        color: #ead2b8;
+        color: #000;
         padding: 20px 5px;
-        background: #000;
+        background: #ead2b8;
         border-radius: 5px;
         display: flex;
         justify-content: space-between;
         transition: background-size .5s, color .5s;
     }
-    .letsWork:hover {
-      color: #D1453F;
-    }
-    
-    .letsWork h1 {
-        font-size: 15px;
-        text-align: left;
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-        margin-top: 13.6vh;
-
-    }
-    
-    .letsWork .lets {
-        font-size: 15px;
-        text-align: left;
-        margin-bottom: 13vh;
-        display: none;
-    }
-    
-    
-    .letsWork h4 {
-        font-size: 15px;
-        text-align: right;
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    h4 .dispo {
-        font-size: 10px;
-        margin-bottom: 13.6vh;
-        display: none;
-    }
     
     .myAvatar, .myImg {
-        top: 0.9vh;
-        height: 100%;
+        top: 10.4vh;
+        height: 60%;
         position: relative;
     
+    }
+
+    .dialog {
+        width: 20%;
+        height: 12%;
+        margin-left: 5%;
+        margin-top: 12%;
+        animation: float 5s ease-in-out infinite;
+        mix-blend-mode: multiply;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 8px;
+        color: #000;
+        background-color: #ffa434;
+        padding: 10px;
+        border-radius: 11px;
+        position: relative;
+        box-shadow: 20px 20px #1f1f1f;
+        font-family: "Baloo 2", cursive;
+      }
+      .dialog:after {
+        transform: translatey(0px);
+        animation: float2 5s ease-in-out infinite;
+        content: ".";
+        font-weight: bold;
+        -webkit-text-fill-color: #ffa434;
+        text-shadow: 22px 22px #1f1f1f;
+        text-align: right;
+        font-size: 55px;
+        width: 55px;
+        height: 11px;
+        line-height: 30px;
+        border-radius: 11px;
+        background-color: #ffa434;
+        position: absolute;
+        display: block;
+        bottom: -30px;
+        right: -10px;
+        box-shadow: 22px 22px #1f1f1f;
+        z-index: -2;
+      }
+
+      .dialog2 {
+        width: 20%;
+        height: 20%;
+        margin-right: 5%;
+        margin-top: 12%;
+        animation: float 5s ease-in-out infinite;
+        mix-blend-mode: multiply;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 8px;
+        color: #fff;
+        background-color: #ff4133;
+        padding: 10px;
+        border-radius: 11px;
+        position: relative;
+        box-shadow: -20px 20px #1f1f1f;
+        font-family: "Baloo 2", cursive;
+      }
+      .dialog2:after {
+        transform: translatey(0px);
+        animation: float2 5s ease-in-out infinite;
+        content: ".";
+        font-weight: bold;
+        -webkit-text-fill-color: #ff4133;
+        text-shadow: -22px 22px #1f1f1f;
+        text-align: left;
+        font-size: 55px;
+        width: 55px;
+        height: 11px;
+        line-height: 30px;
+        border-radius: 11px;
+        background-color: #ff4133;
+        position: absolute;
+        display: block;
+        bottom: -30px;
+        left: -10px;
+        box-shadow: -22px 22px #1f1f1f;
+        z-index: -2;
+      }
+      
+      @keyframes float {
+        0% {
+          transform: translatey(0px);
+        }
+        50% {
+          transform: translatey(-20px);
+        }
+        100% {
+          transform: translatey(0px);
+        }
+      }
+      
+      @keyframes float2 {
+        0% {
+          line-height: 30px;
+          transform: translatey(0px);
+        }
+        55% {
+          transform: translatey(-20px);
+        }
+        60% {
+          line-height: 10px;
+        }
+        100% {
+          line-height: 30px;
+          transform: translatey(0px);
+        }
     }
  }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){ 
     .footer--container {
         width: 100vw;
-        height: 20vh;
+        height: 70vh;
     }
     
     .travailX {
@@ -185,86 +347,155 @@
     }
     .travailX p {
         width: 100vw;
-        font-size: 4.5em;
+        font-size: 4em;
         font-weight: bold;
         color: #ead2b8;
         text-align: center;
-        background: #D1453F;
+        background: #000;
         font-family: sans-serif;
         transform: scale(1.3);
         text-align: center;
         text-transform: uppercase;        
     }
-
+    .workTop {
+        left: 10px;
+    }
     .workBottom {
-        left: 2vw;
-        position: relative;
+        left: 12vw;
     }
     
     .letsWork {
         width: 100vw;
-        height: 20vh;
+        height: 30vh;
         left: 2%;
-        color: #ead2b8;
+        color: #000;
         padding: 20px 5px;
-        background: #000;
+        background: #ead2b8;
         border-radius: 5px;
         display: flex;
         justify-content: space-between;
         transition: background-size .5s, color .5s;
     }
-    .letsWork:hover {
-      color: #D1453F;
-    }
-    
-    .letsWork h1 {
-        font-size: 30px;
-        text-align: left;
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-        margin-top: 13vh;
-
-    }
-    
-    .letsWork .lets {
-        font-size: 20px;
-        text-align: left;
-        margin-bottom: 9vh;
-        display: none;
-    }
-    
-    .myHead {
-        background: url("../assets/head.png");
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center center;
-        height: 400px;
-        width: 400px;
-        transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-    
-    .letsWork h4 {
-        font-size: 25px;
-        text-align: right;
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    h4 .dispo {
-        font-size: 18px;
-        margin-bottom: 9vh;
-        display: none;
-    }
     
     .myAvatar, .myImg {
-        top: 0.9vh;
-        height: 100%;
+        top: 8.5vh;
+        height: 70%;
         position: relative;
     
     }
 
+    .dialog {
+        width: 20%;
+        height: 20%;
+        margin-left: 8%;
+        margin-top: 5%;
+        animation: float 5s ease-in-out infinite;
+        mix-blend-mode: multiply;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 10px;
+        color: #000;
+        background-color: #ffa434;
+        padding: 10px;
+        border-radius: 11px;
+        position: relative;
+        box-shadow: 20px 20px #1f1f1f;
+        font-family: "Baloo 2", cursive;
+      }
+      .dialog:after {
+        transform: translatey(0px);
+        animation: float2 5s ease-in-out infinite;
+        content: ".";
+        font-weight: bold;
+        -webkit-text-fill-color: #ffa434;
+        text-shadow: 22px 22px #1f1f1f;
+        text-align: right;
+        font-size: 55px;
+        width: 55px;
+        height: 11px;
+        line-height: 30px;
+        border-radius: 11px;
+        background-color: #ffa434;
+        position: absolute;
+        display: block;
+        bottom: -30px;
+        right: -10px;
+        box-shadow: 22px 22px #1f1f1f;
+        z-index: -2;
+      }
+
+      .dialog2 {
+        width: 20%;
+        height: 22%;
+        margin-right: 8%;
+        margin-top: 5%;
+        animation: float 5s ease-in-out infinite;
+        mix-blend-mode: multiply;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 10px;
+        color: #fff;
+        background-color: #ff4133;
+        padding: 10px;
+        border-radius: 11px;
+        position: relative;
+        box-shadow: -20px 20px #1f1f1f;
+        font-family: "Baloo 2", cursive;
+      }
+      .dialog2:after {
+        transform: translatey(0px);
+        animation: float2 5s ease-in-out infinite;
+        content: ".";
+        font-weight: bold;
+        -webkit-text-fill-color: #ff4133;
+        text-shadow: -22px 22px #1f1f1f;
+        text-align: left;
+        font-size: 55px;
+        width: 55px;
+        height: 11px;
+        line-height: 30px;
+        border-radius: 11px;
+        background-color: #ff4133;
+        position: absolute;
+        display: block;
+        bottom: -30px;
+        left: -10px;
+        box-shadow: -22px 22px #1f1f1f;
+        z-index: -2;
+      }
+      
+      @keyframes float {
+        0% {
+          transform: translatey(0px);
+        }
+        50% {
+          transform: translatey(-20px);
+        }
+        100% {
+          transform: translatey(0px);
+        }
+      }
+      
+      @keyframes float2 {
+        0% {
+          line-height: 30px;
+          transform: translatey(0px);
+        }
+        55% {
+          transform: translatey(-20px);
+        }
+        60% {
+          line-height: 10px;
+        }
+        100% {
+          line-height: 30px;
+          transform: translatey(0px);
+        }
+    }
 }
 
 @media only screen and (min-width: 992px){ 
@@ -334,9 +565,120 @@
     }
     
     .myAvatar, .myImg {
-        top: 1.4vh;
+        top: 2vh;
         height: 100%;
         position: relative;
     
+    }
+
+    .dialog {
+        width: 15%;
+        height: 30%;
+        margin-left: 10%;
+        animation: float 5s ease-in-out infinite;
+        mix-blend-mode: multiply;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 15px;
+        color: #000;
+        background-color: #ffa434;
+        padding: 10px;
+        border-radius: 11px;
+        position: relative;
+        box-shadow: 20px 20px #1f1f1f;
+        font-family: "Baloo 2", cursive;
+      }
+      .dialog:after {
+        transform: translatey(0px);
+        animation: float2 5s ease-in-out infinite;
+        content: ".";
+        font-weight: bold;
+        -webkit-text-fill-color: #ffa434;
+        text-shadow: 22px 22px #1f1f1f;
+        text-align: right;
+        font-size: 55px;
+        width: 55px;
+        height: 11px;
+        line-height: 30px;
+        border-radius: 11px;
+        background-color: #ffa434;
+        position: absolute;
+        display: block;
+        bottom: -30px;
+        right: -10px;
+        box-shadow: 22px 22px #1f1f1f;
+        z-index: -2;
+      }
+
+      .dialog2 {
+        width: 15%;
+        height: 40%;
+        margin-right: 10%;
+        animation: float 5s ease-in-out infinite;
+        mix-blend-mode: multiply;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 15px;
+        color: #fff;
+        background-color: #ff4133;
+        padding: 10px;
+        border-radius: 11px;
+        position: relative;
+        box-shadow: -20px 20px #1f1f1f;
+        font-family: "Baloo 2", cursive;
+      }
+      .dialog2:after {
+        transform: translatey(0px);
+        animation: float2 5s ease-in-out infinite;
+        content: ".";
+        font-weight: bold;
+        -webkit-text-fill-color: #ff4133;
+        text-shadow: -22px 22px #1f1f1f;
+        text-align: left;
+        font-size: 55px;
+        width: 55px;
+        height: 11px;
+        line-height: 30px;
+        border-radius: 11px;
+        background-color: #ff4133;
+        position: absolute;
+        display: block;
+        bottom: -30px;
+        left: -10px;
+        box-shadow: -22px 22px #1f1f1f;
+        z-index: -2;
+      }
+      
+      @keyframes float {
+        0% {
+          transform: translatey(0px);
+        }
+        50% {
+          transform: translatey(-20px);
+        }
+        100% {
+          transform: translatey(0px);
+        }
+      }
+      
+      @keyframes float2 {
+        0% {
+          line-height: 30px;
+          transform: translatey(0px);
+        }
+        55% {
+          transform: translatey(-20px);
+        }
+        60% {
+          line-height: 10px;
+        }
+        100% {
+          line-height: 30px;
+          transform: translatey(0px);
+        }
     }
  }

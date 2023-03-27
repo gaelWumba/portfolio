@@ -15,7 +15,7 @@
     }
 
     .slideInfo {  
-        top: 5vh;
+        top: 3vh;
         display: flex;
         flex-direction: column;
         left: 5vw;

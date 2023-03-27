@@ -13,18 +13,19 @@ export default function Footer() {
           Travail&nbsp;&nbsp;일하다&nbsp;&nbsp;
         </p>
         <div className="letsWork to-bottom">
-          <h1>
-            <span className="boulot">Let's work</span>
-          </h1>
-          {/* <div className="myHead" /> */}
+          <div className="dialog">
+            êtes vous à <br />
+            l'écoute du marché?
+          </div>
           <div className="myImg">
-            <img src="./about/myAvatar.png" alt="" className="myAvatar"/>
+            <img src="./about/herAva.png" alt="" className="myAvatar"/>
             <img src="./about/image.png" alt="" className="myImg"/>
           </div>
 
-          <h4 className="posteR">
-            <span className="altern">Alternance</span>
-          </h4>
+          <div className="dialog2">
+            je suis à la recherche<br/> 
+            d'un contrat en alternance!
+          </div>
           
         </div>
         <p
@@ -35,6 +36,7 @@ export default function Footer() {
         >
           Mosala&nbsp;&nbsp;&nbsp;Work&nbsp;&nbsp;
         </p>
+
       </div>
     </section>
   );
