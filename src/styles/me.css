@@ -1,6 +1,6 @@
 @media only screen and (min-width: 400px){ 
     .me__main--container {
-        margin-top: 5%;
+        margin-top: 2%;
         width: 100vw;
         height: 55vh;
         background: #000;
@@ -105,7 +105,7 @@
 
 @media only screen and (min-width: 600px){ 
     .me__main--container {
-        margin-top: 5%;
+        margin-top: 2%;
         width: 100vw;
         height: 55vh;
         background: #000;
@@ -209,7 +209,7 @@
 
 @media only screen and (min-width: 768px){ 
     .me__main--container {
-        margin-top: 5%;
+        margin-top: 2%;
         width: 100vw;
         height: 85vh;
         background: #000;
@@ -314,7 +314,7 @@
 
 @media only screen and (min-width: 992px){ 
     .me__main--container {
-        margin-top: 5%;
+        margin-top: 2%;
         width: 100vw;
         height: 100vh;
         background: #000;
