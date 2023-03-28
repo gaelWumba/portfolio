@@ -10,18 +10,20 @@
     position: relative;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 479px){ 
+@media only screen and (min-width: 400px){ 
     .home__main--container {
         height: 100vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
     .home__main--container  h1 {
         top: 55%;
         font-size: 8em;
         color: #D1453F;
-        right: -5vw;
+        right: -23vw;
+        opacity: 0;
         position: relative;
         line-height: 1;
         font-weight: 900;
@@ -35,6 +37,7 @@
         font-size: 10em;
         line-height: 1;
         left: -55vw;
+        opacity: 0;
         font-weight: 900;
         position: relative;
         text-transform: uppercase;
@@ -44,6 +47,7 @@
     .home__main--container h3 {
         top: 20%;
         left: 4vw;
+        opacity: 0;
         font-size: 3rem;
         position: absolute;
         color: #EAD2B8;
@@ -54,29 +58,32 @@
     }
  }
 
-@media only screen and (min-width: 480px) and (max-width: 767px){ 
+@media only screen and (min-width: 600px){ 
     .home__main--container {
         height: 100vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
     .home__main--container  h1 {
         font-size: 13em;
         color: #D1453F;
         right: -15vw;
+        opacity: 0;
         position: relative;
         line-height: 0.4;
         font-weight: 900;
         text-transform: uppercase;
-        margin-top: 65vh;
+        margin-top: 8vh;
     }
 
     .home__main--container h2 {
-        top: 2vh;
+        top: 60vh;
         font-size: 15em;
         line-height: 1;
-        left: -55vw;
+        left: -50vw;
+        opacity: 0;
         font-weight: 900;
         position: relative;
         text-transform: uppercase;
@@ -86,6 +93,7 @@
     .home__main--container h3 {
         top: 20%;
         left: 4vw;
+        opacity: 0;
         font-size: 4rem;
         position: absolute;
         color: #EAD2B8;
@@ -96,29 +104,32 @@
     }
  }
 
-@media only screen and (min-width: 768px) and (max-width: 991px){ 
+@media only screen and (min-width: 768px){ 
     .home__main--container {
         height: 100vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
     .home__main--container  h1 {
         font-size: 19em;
         color: #D1453F;
         right: -20vw;
+        opacity: 0;
         position: relative;
         line-height: 0.4;
         font-weight: 900;
         text-transform: uppercase;
-        margin-top: 60vh;
+        margin-top: -2vh;
     }
 
     .home__main--container h2 {
-        top: 2vh;
+        top: 60vh;
         font-size: 17em;
         line-height: 1;
         left: -38vw;
+        opacity: 0;
         font-weight: 900;
         position: relative;
         text-transform: uppercase;
@@ -131,6 +142,7 @@
         font-size: 4rem;
         position: absolute;
         color: #EAD2B8;
+        opacity: 0;
         font-family: sans-serif;
 
         display: flex;
@@ -149,18 +161,20 @@
         font-size: 26vw;
         color: #D1453F;
         right: -40vw;
+        opacity: 0;
         position: relative;
         line-height: 0.4;
         font-weight: 900;
         text-transform: uppercase;
-        margin-top: 40vh;
+        margin-top: -20vh;
     }
 
     .home__main--container h2 {
-        top: 2vh;
+        top: 60vh;
         font-size: 25vw;
         line-height: 1;
         left: -20vw;
+        opacity: 0;
         font-weight: 900;
         position: relative;
         text-transform: uppercase;
@@ -168,8 +182,9 @@
     }
 
     .home__main--container h3 {
-        top: 20%;
+        top: 20vh;
         left: 4vw;
+        opacity: 0;
         font-size: 4rem;
         position: absolute;
         color: #EAD2B8;

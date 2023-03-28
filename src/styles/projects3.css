@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 320px) and (max-width: 479px){  
+@media only screen and (min-width: 400px){  
     .projects3__main--container {
         width: 100vw;
         height: 50vh;
@@ -15,7 +15,7 @@
     }
 
     .slideInfo {  
-        top: 3vh;
+        top: 4.4vh;
         display: flex;
         flex-direction: column;
         left: 5vw;
@@ -30,7 +30,7 @@
     }
 
     .slideInfo span{
-        font-size: 3em;
+        font-size: 3.5em;
         color: #D1453F;
         font-weight: 600;
         margin-left: 20px;
@@ -47,7 +47,7 @@
 
     .slideProjet h1 {
         left: 4%;
-        font-size: 3.5em;
+        font-size: 4.2em;
         font-weight: 900;
         color: #000;
         position: relative;
@@ -77,16 +77,16 @@
     .slideContent img {
         left: 34vw;
         top: -12vh;
-        width: 57%;
+        width: 55%;
         height: 37.5%;
         position: relative;
     }  
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px){ 
+@media only screen and (min-width: 600px){ 
     .projects3__main--container {
         width: 100vw;
-        height: 55vh;
+        height: 60vh;
         background: #ead2b8;
         overflow: hidden;
     }
@@ -124,7 +124,7 @@
     }
 
     .slideProjet {
-        top: -22.6vh;
+        top: -25vh;
         display: flex;
         flex-direction: column;
         left: 30vw;
@@ -133,7 +133,7 @@
 
     .slideProjet h1 {
         left: 2%;
-        font-size: 5.2em;
+        font-size: 6.4em;
         font-weight: 900;
         color: #000;
         position: relative;
@@ -162,14 +162,14 @@
 
     .slideContent img {
         left: 34vw;
-        top: -18vh;
+        top: -22vh;
         width: 54%;
         height: 37.5%;
         position: relative;
     }  
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px){ 
+@media only screen and (min-width: 768px){ 
     .projects3__main--container {
         width: 100vw;
         height: 60vh;
@@ -197,6 +197,8 @@
         text-align: right;
         width: fit-content;
         font-size: 20px;
+        margin-left: 80px;
+
     }
 
     .slideInfo span{
@@ -271,7 +273,7 @@
         display: flex;
         flex-direction: column;
 
-        top: -3vh;
+        top: -4vh;
         left: 26vw;
         position: relative;
     }
@@ -295,6 +297,7 @@
         display: flex;
         flex-direction: column;
 
+        top: -1vh;
         left: 28vw;
         position: relative;
     }
@@ -316,6 +319,7 @@
         width: 43%;
         padding: 10px;
         display: flex;
+        margin-left: -40px;
         font-size: 20px;
         border-radius: 6px;
         background: #D1453F;
@@ -330,9 +334,10 @@
     }
 
     .slideContent img {
+        top: -10px;
+        left: 50px;
         width: 30%;
         height: 37.5%;
-        margin-top: 10px;
-        margin-left: 50px;
+        margin-top: 12px;
     }
 }

@@ -3,12 +3,12 @@ import {gsap} from 'gsap'
 
 function Home() {
   useEffect(() => {
-    // const tl  = gsap.timeline()
-    //   tl.to(".moderne, .creative, .design", {
-    //     opacity: 2,
-    //     delay: 8,
-    //     duration: 8,
-    //   })
+    const tl  = gsap.timeline()
+      tl.to(".moderne, .creative, .design", {
+        opacity: 2,
+        delay: 0.9,
+        duration: 10,
+      })
   })
 
   return (

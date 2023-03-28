@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-@media only screen and (min-width: 320px) and (max-width: 479px){ 
+@media only screen and (min-width: 400px){ 
     .nav {
         position: fixed;
         z-index: 2;
@@ -10,7 +10,32 @@
     }
     
     .myNavLinks {
+        padding: 8px;
+        display: flex;
+        width: 80%;
+        text-transform: uppercase;
+        justify-content: center;
+    }
+
+    .myNavLinks a {
+        font-size: 13px;
+        margin: 0 25px;
+        font-family: sans-serif;
+    }
+}
+
+
+@media only screen and (min-width: 600px){ 
+    .nav {
+        position: fixed;
+        z-index: 2;
         width: 100%;
+        height: 5vh;
+        background: #1f1f1f;
+    }
+    
+    .myNavLinks {
+        width: 85%;
         padding: 8px;
         display: flex;
 
@@ -27,8 +52,7 @@
     }
 }
 
-
-@media only screen and (min-width: 480px) and (max-width: 767px){ 
+@media only screen and (min-width: 768px){ 
     .nav {
         position: fixed;
         z-index: 2;
@@ -38,34 +62,7 @@
     }
     
     .myNavLinks {
-        width: 100%;
-        padding: 8px;
-        display: flex;
-
-        left: -8px;
-        position: relative;
-        text-transform: uppercase;
-        justify-content: space-between;
-    }
-
-    .myNavLinks a {
-        font-size: 13px;
-        margin: 0 25px;
-        font-family: sans-serif;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px){ 
-    .nav {
-        position: fixed;
-        z-index: 2;
-        width: 100%;
-        height: 5vh;
-        background: #1f1f1f;
-    }
-    
-    .myNavLinks {
-        width: 100%;
+        width: 85%;
         padding: 8px;
         display: flex;
 

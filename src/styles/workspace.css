@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) and (max-width: 479px){ 
+@media only screen and (min-width: 400px){ 
     .workspace--container {
         width: 100vw;
         height: 15vh;
@@ -25,10 +25,10 @@
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px){ 
+@media only screen and (min-width: 600px){ 
     .workspace--container {
         width: 100vw;
-        height: 10vh;
+        height: 20vh;
     }
     .workSpace, .workSpace-clone {
         position: relative;
@@ -38,17 +38,17 @@
         color: #ead2b8;
     }
     .workSpace-clone {
-        top: -12.2vw;
+        top: -5px;
         line-height: 0.4;
         color: #D1453F;
         overflow: hidden;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px){ 
+@media only screen and (min-width: 768px){ 
     .workspace--container {
         width: 100vw;
-        height: 15vh;
+        height: 25vh;
     }
     .workSpace, .workSpace-clone {
         position: relative;
@@ -58,7 +58,7 @@
         color: #ead2b8;
     }
     .workSpace-clone {
-        top: -10.3vw;
+        top: -3.5vw;
         line-height: 0.4;
         color: #D1453F;
         overflow: hidden;
@@ -68,7 +68,7 @@
 @media only screen and (min-width: 992px){ 
     .workspace--container {
         width: 100vw;
-        height: 30vh;
+        height: 40vh;
     }
     .workSpace, .workSpace-clone {
         left: -15vw;
@@ -79,7 +79,7 @@
         color: #ead2b8;
     }
     .workSpace-clone {
-        top: -9.42vw;
+        top: -6.4vw;
         line-height: 0.4;
         color: #D1453F;
         overflow: hidden;

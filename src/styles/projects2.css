@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 320px) and (max-width: 479px){ 
+@media only screen and (min-width: 400px){ 
     .projects2__main--container {
         width: 100vw;
         height: 50vh;
@@ -19,8 +19,8 @@
         display: flex;
         flex-direction: column;
         
-        top: -24.2vh;
-        left: 57vw;
+        top: -28vh;
+        left: 58vw;
         position: relative;
     }
 
@@ -32,7 +32,7 @@
     }
 
     .coolifyInfo span{
-        font-size: 3em;
+        font-size: 3.5em;
         color: #D1453F;
         font-weight: 600;
         margin-left: 5px;
@@ -46,9 +46,9 @@
     }
 
     .coolifyProjet h1 {
-        top: -12vh;
+        top: -14.3vh;
         left: -24px;
-        font-size: 2.5em;
+        font-size: 3em;
         font-weight: 900;
         position: relative;
         font-family: sans-serif;
@@ -56,8 +56,8 @@
     }
 
     .coolifyProjet h6 {
-        top: -11vh;
-        left: -8%;
+        top: -13vh;
+        left: -6%;
         width: 64%;
         padding: 10px;
         display: flex;
@@ -78,17 +78,17 @@
     .coolifyContent img {
         top: 22vh;
         left: -22px;
-        width: 72%;
+        width: 71%;
         height: 0%;
         margin-top: 10px;
         position: relative;
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px){ 
+@media only screen and (min-width: 600px){ 
     .projects2__main--container {
         width: 100vw;
-        height: 55vh;
+        height: 60vh;
         background: #000;
         overflow: hidden;
     }
@@ -105,7 +105,7 @@
         display: flex;
         flex-direction: column;
         
-        top: -34.3vh;
+        top: -44vh;
         left: 57vw;
         position: relative;
     }
@@ -125,6 +125,7 @@
     } 
 
     .coolifyProjet {
+        top: -60px;
         display: flex;
         flex-direction: column;
         position: relative;
@@ -133,7 +134,7 @@
     .coolifyProjet h1 {
         top: -19vh;
         left: -24px;
-        font-size: 3.5em;
+        font-size: 4.3em;
         font-weight: 900;
         position: relative;
         font-family: sans-serif;
@@ -161,7 +162,7 @@
     }
 
     .coolifyContent img {
-        top: 22vh;
+        top: 24vh;
         left: -22px;
         width: 67%;
         height: 0%;
@@ -170,7 +171,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px){ 
+@media only screen and (min-width: 768px){ 
     .projects2__main--container {
         width: 100vw;
         height: 60vh;
@@ -180,7 +181,7 @@
 
 
     .coolifyContent {
-        margin: 5% 0;
+        margin: 10% 0;
         margin-left: 15%;
         display: flex;
         flex-direction: column;
@@ -190,7 +191,7 @@
         display: flex;
         flex-direction: column;
         
-        top: -44vh;
+        top: -50vh;
         left: 50vw;
         position: relative;
     }
@@ -248,8 +249,8 @@
     }
 
     .coolifyContent img {
-        top: 20vh;
-
+        top: 18vh;
+        left: 0vw;
         width: 50%;
         height: 0%;
         margin-top: 10px;
@@ -298,15 +299,16 @@
     .coolifyProjet {
         display: flex;
         flex-direction: column;
-
+        
+        top: 28vh;
         left: 2.5vw;
         position: relative;
     }
 
     .coolifyProjet h1 {
-        font-size: 8em;
+        font-size: 7.8em;
         font-weight: 900;
-        left: -15vw;
+        left: -16vw;
         margin-bottom: 0.3em;
         position: relative;
         transform: scale(.5, 2);
@@ -334,8 +336,9 @@
     }
 
     .coolifyContent img {
+        top: 2vh;
         width: 30%;
-        height: 44%;
+        height: 45%;
         margin-top: 10px;
     }
 }

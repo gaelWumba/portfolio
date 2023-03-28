@@ -168,7 +168,7 @@
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px){ 
+@media only screen and (min-width: 600px){ 
     .footer--container {
         width: 100vw;
         height: 50vh;
@@ -333,7 +333,7 @@
     }
  }
 
-@media only screen and (min-width: 768px) and (max-width: 991px){ 
+@media only screen and (min-width: 768px){ 
     .footer--container {
         width: 100vw;
         height: 70vh;

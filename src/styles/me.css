@@ -1,9 +1,10 @@
-@media only screen and (min-width: 320px) and (max-width: 479px){ 
+@media only screen and (min-width: 400px){ 
     .me__main--container {
         margin-top: 5%;
         width: 100vw;
         height: 55vh;
         background: #000;
+        overflow: hidden;
     }
 
     .meContent {
@@ -22,7 +23,7 @@
     }
 
     .myLinks {
-        left: -10%;
+        left: -8%;
         position: relative;
         font-size: 0.7em;
         font-weight: bold;
@@ -35,19 +36,19 @@
     }
     
     .myMail {
-        top: 2.5vh;
+        top: 2vh;
         left: -4%;
         color: #D1453F;
         cursor: pointer;
-        font-size: 0.51em;
+        font-size: 0.5em;
         position: relative;
         text-transform: uppercase;
         transition: all 0.5s ease-in-out;
     }
     
     .wumba {
-        top: 4.42vh;
-        left: 19vw;
+        top: 4.7vh;
+        left: 15.5vw;
         width: fit-content;
         line-height: 0.7;
         overflow: hidden;
@@ -60,10 +61,10 @@
     }
     .moi {
         top: 10vh;
-        left: 10vw;
+        left: 17vw;
         width: 100%;
         color: #ead2b8;
-        font-size: .85em;
+        font-size: 1em;
         position: relative;
         transition: all 0.5s ease-in-out;
     }
@@ -88,9 +89,9 @@
 
     .buatu {
         top: 1px;
-        left: -24.5vw;
+        left: -20vw;
         width: fit-content;
-        font-size: 4.1em;
+        font-size: 4.18em;
         line-height: 0.7;
         font-family: sans-serif;
         overflow: hidden;
@@ -102,7 +103,7 @@
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px){ 
+@media only screen and (min-width: 600px){ 
     .me__main--container {
         margin-top: 5%;
         width: 100vw;
@@ -126,7 +127,7 @@
     }
 
     .myLinks {
-        left: -7vw;
+        left: -6vw;
         position: relative;
         font-size: 1em;
         font-weight: bold;
@@ -150,12 +151,12 @@
     }
     
     .wumba {
-        top: 5.8vh;
-        right: -18vw;
+        top: 6.2vh;
+        left: 15vw;
         width: fit-content;
         line-height: 0.7;
         overflow: hidden;
-        font-size: 5.8em;
+        font-size: 6em;
         position: relative;
         font-family: sans-serif;
         transform: scale(.5, 1);
@@ -164,7 +165,7 @@
     }
     .moi {
         top: 10vh;
-        left: 10vw;
+        left: 18vw;
         width: 100%;
         color: #ead2b8;
         font-size: 1.05em;
@@ -192,9 +193,9 @@
 
     .buatu {
         top: 1px;
-        left: -21.6vw;
+        left: -17.6vw;
         width: fit-content;
-        font-size: 5.92em;
+        font-size: 6em;
         line-height: 0.7;
         font-family: sans-serif;
         overflow: hidden;
@@ -206,7 +207,7 @@
     }
  }
 
-@media only screen and (min-width: 768px) and (max-width: 991px){ 
+@media only screen and (min-width: 768px){ 
     .me__main--container {
         margin-top: 5%;
         width: 100vw;
@@ -255,8 +256,8 @@
     }
     
     .wumba {
-        top: 10.21vh;
-        right: -22.5vw;
+        top: 10.5vh;
+        left: 22vw;
         width: fit-content;
         line-height: 0.7;
         overflow: hidden;
@@ -349,6 +350,7 @@
     }
     
     .myMail {
+        top: -0.01vh;
         left: -1.6vw;
         color: #D1453F;
         cursor: pointer;
@@ -359,11 +361,12 @@
     }
     
     .wumba {
-        right: -18.5vw;
+        top: 0.2vh;
+        left: 18vw;
         width: fit-content;
         line-height: 0.7;
         overflow: hidden;
-        font-size: 18.1em;
+        font-size: 18em;
         position: relative;
         font-family: sans-serif;
         transform: scale(.5, 1);

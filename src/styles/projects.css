@@ -1,6 +1,6 @@
 
 
-@media only screen and (min-width: 320px) and (max-width: 479px){ 
+@media only screen and (min-width: 400px){ 
     .projects__main--container {
         width: 100vw;
         height: 50vh;
@@ -16,7 +16,7 @@
     }
 
     .mingaInfo {  
-        top: 2.5vh;
+        top: 4vh;
         display: flex;
         flex-direction: column;
         left: 3vw;
@@ -31,7 +31,7 @@
     }
 
     .mingaInfo span{
-        font-size: 3em;
+        font-size: 3.5em;
         color: #D1453F;
         font-weight: 600;
         margin-left: 40px;
@@ -48,7 +48,7 @@
 
     .mingaProjet h1 {
         left: 4%;
-        font-size: 3em;
+        font-size: 3.6em;
         font-weight: 900;
         color: #000;
         position: relative;
@@ -78,16 +78,16 @@
     .mingaContent img {
         left: 34vw;
         top: -12vh;
-        width: 57%;
+        width: 55%;
         height: 37.5%;
         position: relative;
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px){ 
+@media only screen and (min-width: 600px){ 
     .projects__main--container {
         width: 100vw;
-        height: 55vh;
+        height: 60vh;
         background: #ead2b8;
         overflow: hidden;
     }
@@ -168,7 +168,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px){ 
+@media only screen and (min-width: 768px){ 
     .projects__main--container {
         width: 100vw;
         height: 60vh;
@@ -195,6 +195,8 @@
         text-align: right;
         width: fit-content;
         font-size: 20px;
+        margin-left: 50px;
+
     }
 
     .mingaInfo span{
@@ -269,7 +271,7 @@
         display: flex;
         flex-direction: column;
 
-        top: -3vh;
+        top: -4.5vh;
         left: 26vw;
         position: relative;
     }
@@ -279,6 +281,7 @@
         text-align: right;
         width: fit-content;
         font-size: 20px;
+        margin-left: 50px;
     }
 
     .mingaInfo span{
@@ -292,6 +295,7 @@
         display: flex;
         flex-direction: column;
 
+        top: -10px;
         left: 27vw;
         position: relative;
     }
@@ -314,6 +318,7 @@
         padding: 10px;
         display: flex;
         font-size: 20px;
+        margin-left: -35px;
         border-radius: 6px;
         background: #D1453F;
         flex-direction: column;
@@ -328,6 +333,8 @@
     }
 
     .mingaContent img {
+        top: -10px;
+        left: 10px;
         width: 30%;
         height: 37.5%;
         margin-top: 10px;

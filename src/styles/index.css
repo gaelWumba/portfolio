@@ -10,6 +10,7 @@ body {
   background: #1f1f1f;
   cursor: none;
   color: #fefdfb;
+  overflow: hidden;
 }
 
 main {
@@ -56,4 +57,22 @@ ol, ul {
   height: 20px;
   background-color: #000;
   mix-blend-mode: difference;
+}
+
+@media only screen and (min-width: 400px){ 
+  .cursor, .outer-cursor , .inner-cursor {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px){ 
+  .cursor, .outer-cursor , .inner-cursor {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px){ 
+  .cursor, .outer-cursor , .inner-cursor {
+    display: none;
+  }
 }
