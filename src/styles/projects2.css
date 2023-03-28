@@ -278,8 +278,8 @@
         display: flex;
         flex-direction: column;
 
-        top: -3vh;
-        left: -26vw;
+        top: -1vh;
+        left: -25vw;
         position: relative;
     }
 
@@ -301,7 +301,7 @@
         flex-direction: column;
         
         top: 28vh;
-        left: 2.5vw;
+        left: 4vw;
         position: relative;
     }
 

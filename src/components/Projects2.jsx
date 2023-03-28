@@ -21,7 +21,7 @@ export default function Projects2() {
                     </a>
                 </div>
                 <div className='coolifyInfo'>
-                    <span>03</span>
+                    <span>02</span>
                     <p>
                         React js <br />
                         MongoDB <br />
