@@ -13,7 +13,7 @@ export default function Projects2() {
                 <img src="./projets/coolify.png" alt="" />
                 <div className="coolifyProjet">
                     <h1>COOLIFY</h1>
-                    <a target={"_blank"} href="https://github.com/gaelWumba/slide">
+                    <a target={"_blank"} href="https://github.com/gaelWumba/coolify">
                         <h6>
                             <span>COOLIFY</span> 
                                 Voir le Github du project
@@ -23,7 +23,7 @@ export default function Projects2() {
                 <div className='coolifyInfo'>
                     <span>02</span>
                     <p>
-                        React js <br />
+                        Next js <br />
                         MongoDB <br />
                         Socket.io <br />
                         Bootstrap <br/>
